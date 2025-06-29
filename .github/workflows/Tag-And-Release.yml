@@ -1,4 +1,8 @@
 name: Tag & Note Release
+
+permissions:
+  contents: read
+
 on : 
   pull_request:    
     branches:
@@ -8,6 +12,8 @@ on :
 jobs:
   CheckRelease:
     runs-on: macos-15
+    permissions:
+      contents: write
     steps:
       - name: Check if merge is release branch
         id: check-release
