@@ -5,9 +5,14 @@ on :
       - main
     types:
       - closed
+
+permissions:
+  contents: read
 jobs:
   CheckRelease:
     runs-on: macos-15
+    permissions:
+      contents: write
     steps:
       - name: Check if merge is release branch
         id: check-release
