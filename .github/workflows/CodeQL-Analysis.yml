@@ -6,6 +6,9 @@ on:
   pull_request:
     branches: [ main ]
 
+permissions:
+  contents: read
+
 jobs:
   analyze:
     name: Analyze CodeQL
@@ -13,7 +16,6 @@ jobs:
     permissions:
       security-events: write
       actions: read
-      contents: read
 
     steps:
       - name: Checkout repository
