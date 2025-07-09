@@ -12,11 +12,11 @@
 #  https://help.github.com/en/articles/about-code-owners
 #
 
-# Maintainers: @nachoBonafonte @bryce-b
+# Maintainers: @bryce-b @nachoBonafonte
 
-# Approvers: @vvydier @ArielDemarco
+# Approvers: @ArielDemarco @vvydier
 
 
-* @nachoBonafonte @bryce-b @vvydier @ArielDemarco
+* @bryce-b @nachoBonafonte @ArielDemarco @vvydier
 
 CODEOWNERS @nachoBonafonte
