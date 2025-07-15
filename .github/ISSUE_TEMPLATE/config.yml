@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: OpenTelemetry Community
+    url: https://github.com/open-telemetry/community
+    about: Please check the OpenTelemetry Community repository for questions and discussions
+  - name: OpenTelemetry Swift Documentation
+    url: https://opentelemetry.io/docs/languages/swift/
+    about: Check the official documentation for guidance on using OpenTelemetry Swift
