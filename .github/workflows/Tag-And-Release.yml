@@ -10,7 +10,7 @@ permissions:
 jobs:
   CheckRelease:
     permissions:
-      contents: write # required for creating tags and releases
+      contents: write # required for pushing changes
     runs-on: macos-15
     steps:
       - name: Check if merge is release branch
